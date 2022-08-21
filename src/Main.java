@@ -1,14 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        byte a = 2;
-        short c = 254;
-        int i = 10000;
-        long L = 2000000;
-        float f = 123.45f;
-        double d = 123.456;
-        char j = 'a';
-        boolean b = true;
-        System.out.println("Типы переменных JAVA: " + a + "," + c + "," + i + "," + L + "," + f + "," +
-                d + "," + j + "," + b + ".");
+       double weight1 = 78.2;
+       double weight2 = 82.7;
+       double sum1 = weight1 + weight2;
+       double sum2 = weight2 - weight1;
+       System.out.println("Общий вес боксеров: " + sum1 + "\n" + "Разница в весе: " + sum2);
+
     }
 }
