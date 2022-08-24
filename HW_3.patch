@@ -1,0 +1,33 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 0360d64eaf37257e5a35456ee33880287d711409)
++++ b/src/Main.java	(revision c66d825f00676a5ea353a932392dce792ca52a0f)
+@@ -1,14 +1,13 @@
+ public class Main {
+     public static void main(String[] args) {
+-        byte a = 2;
+-        short c = 254;
+-        int i = 10000;
+-        long L = 2000000L;
+-        float f = 123.45f;
+-        double d = 123.456;
+-        char j = 'a';
+-        boolean b = true;
+-        System.out.println("Типы переменных JAVA: " + a + "," + c + "," + i + "," + L + "," + f + "," +
+-                d + "," + j + "," + b + ".");
++       int bananas = (5 * 80);
++       int milk = (200 / 100 * 105);
++       int icecream = (2 * 100);
++       int eggs = (4 * 70);
++       int weight = (bananas + milk + icecream + eggs);
++       int convert;
++        convert = (weight / 1000);
++        System.out.println("Общий вес продуктов: " + weight + "г" + "\n                        "
++               + convert + "кг");
+     }
+ }
+\ No newline at end of file

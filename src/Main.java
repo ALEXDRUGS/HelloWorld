@@ -5,8 +5,7 @@ public class Main {
        int icecream = (2 * 100);
        int eggs = (4 * 70);
        int weight = (bananas + milk + icecream + eggs);
-       int convert;
-        convert = (weight / 1000);
+       float convert = (weight / 1000f);
         System.out.println("Общий вес продуктов: " + weight + "г" + "\n                        "
                + convert + "кг");
     }
